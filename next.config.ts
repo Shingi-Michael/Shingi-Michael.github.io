@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  output: process.env.GITHUB_PAGES === "true" ? "export" : undefined,
   trailingSlash: false,
 };
 
