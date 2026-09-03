@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { notes } from "@/lib/content";
 
@@ -23,7 +22,7 @@ export default function Home() {
               <time>{note.date}</time>
               <div>
                 {note.status === "Published" ? (
-                  <h3><Link href={note.href}>{note.title}</Link></h3>
+                  <h3><a href={note.href}>{note.title}</a></h3>
                 ) : (
                   <h3>{note.title}</h3>
                 )}

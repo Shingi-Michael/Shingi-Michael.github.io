@@ -1,12 +1,10 @@
-import Link from "next/link";
-
 export function SiteHeader() {
   return (
     <header className="site-header">
-      <Link href="/" className="site-name">Shingi Kamucheka</Link>
+      <a href="/" className="site-name">Shingi Kamucheka</a>
       <nav aria-label="Primary navigation">
-        <Link href="/#writing">Writing</Link>
-        <Link href="/#about">About</Link>
+        <a href="/#writing">Writing</a>
+        <a href="/#about">About</a>
       </nav>
     </header>
   );

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 
 export const metadata = {
@@ -24,7 +23,7 @@ export default function StartOfCuriosity() {
     <main className="page">
       <SiteHeader />
       <article className="post">
-        <Link href="/" className="back-link">← Back to writing</Link>
+        <a href="/" className="back-link">← Back to writing</a>
 
         <header>
           <time>3 September 2026</time>
