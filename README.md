@@ -14,7 +14,7 @@ Using the standard personal-site repository name publishes the notebook at `http
 
 ## Adding a new note
 
-1. Duplicate `app/notes/kv-cache/page.tsx` into a new folder such as `app/notes/my-new-note/page.tsx`.
+1. Duplicate `app/notes/the-start-of-curiosity/page.tsx` into a new folder such as `app/notes/my-new-note/page.tsx`.
 2. Replace the title, metadata, deck, and article sections.
 3. Add the note summary to `lib/content.ts` and set its `href` to the new route.
 4. Run `npm run dev` to read the draft locally.
