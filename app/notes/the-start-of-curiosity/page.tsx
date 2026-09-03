@@ -2,7 +2,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 
 export const metadata = {
-  title: "The Start of Curiosity — Shingi Kamucheka",
+  title: "The Start of Curiosity | Shingi Kamucheka",
   description: "How limited hardware, local models, and a practical coding problem became the beginning of Demesne.",
   openGraph: {
     title: "The Start of Curiosity",
@@ -40,7 +40,7 @@ export default function StartOfCuriosity() {
 
         <h2>The hardware I already owned</h2>
         <p>
-          I own a computer with an RX 9070 and an RTX 3060—a hybrid of sorts. When I first
+          I own a computer with an RX 9070 and an RTX 3060, a hybrid of sorts. When I first
           introduced myself to tools such as LM Studio and Ollama, I realized that even though
           my hardware was limited, I could still download a meaningfully capable model to help
           me with some of my personal projects, such as engineerpreppro.com.
@@ -60,7 +60,7 @@ export default function StartOfCuriosity() {
         <h2>My problem</h2>
         <p>
           As if life was not already complicated, I decided: hey, why not learn how to make a
-          harness—or an “agent”—of my own?
+          harness, or an “agent,” of my own?
         </p>
         <p>
           At the time, I did not fully understand what building an agent involved. I knew what
@@ -109,7 +109,7 @@ export default function StartOfCuriosity() {
           and benchmarking.
         </p>
         <p>
-          In this series, I will work through those ideas as I came to understand them—including
+          In this series, I will work through those ideas as I came to understand them, including
           the assumptions that were wrong, the experiments that failed, and the results that changed
           the direction of the project.
         </p>
