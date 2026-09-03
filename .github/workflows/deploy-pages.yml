@@ -30,9 +30,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build static site
-        env:
-          GITHUB_PAGES: "true"
-        run: npm run build
+        run: npm run build:pages
       - name: Preserve framework asset folders
         run: touch dist/client/.nojekyll
       - name: Upload Pages artifact
