@@ -37,9 +37,11 @@ export default function Home() {
       <section id="about" className="about-section">
         <h2>About</h2>
         <p>
-          My current project is Demesne, a durable local coding agent. I direct the research questions
-          and experiments while learning the underlying code and systems concepts. This is a working notebook,
-          not a record of finished expertise.
+          My current project is Demesne, an AI agent that runs on hardware I own. It is a desktop
+          coding agent for Mac and Linux, a personal assistant running Qwen3.8-27B on my own GPU, and
+          an iPhone app that reaches both. I direct the research questions and experiments while
+          learning the underlying code and systems concepts. This is a working notebook, not a record
+          of finished expertise.
         </p>
       </section>
 

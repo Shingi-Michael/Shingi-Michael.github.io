@@ -10,6 +10,15 @@ export type Note = {
 
 export const notes: Note[] = [
   {
+    slug: "from-a-coding-cli-to-my-own-domain",
+    date: "8 Nov 2026",
+    title: "From a Coding CLI to My Own Domain",
+    summary: "Two months on, Demesne is a desktop coding agent, a personal assistant on my own GPU, and an iPhone app that reaches both.",
+    tag: "Demesne",
+    status: "Published",
+    href: "/notes/from-a-coding-cli-to-my-own-domain",
+  },
+  {
     slug: "the-start-of-curiosity",
     date: "3 Sep 2026",
     title: "The Start of Curiosity",
