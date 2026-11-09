@@ -64,6 +64,10 @@ footer { padding: 28px 0 46px; border-top: 1px solid var(--rule); color: var(--m
 .post .summary { color: var(--muted); font-size: 21px; }
 .post h2 { margin: 60px 0 18px; color: var(--text); }
 .post p { margin: 0 0 26px; }
+.post-figure { margin: 40px 0 34px; }
+.post-figure img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 8px; }
+.post-figure figcaption { margin-top: 10px; color: var(--muted); font-family: Arial, sans-serif; font-size: 13px; line-height: 1.5; }
+.post .figure-note { color: var(--muted); font-family: Arial, sans-serif; font-size: 13px; }
 .post blockquote { margin: 45px 0; padding-left: 24px; border-left: 2px solid var(--text); font-size: 22px; font-style: italic; }
 
 @media (max-width: 600px) {

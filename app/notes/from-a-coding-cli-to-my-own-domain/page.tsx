@@ -9,13 +9,13 @@ export const metadata = {
   openGraph: {
     title: "From a Coding CLI to My Own Domain",
     description,
-    images: [],
+    images: ["https://shingi-michael.github.io/images/demesne/og.jpg"],
   },
   twitter: {
-    card: "summary" as const,
+    card: "summary_large_image" as const,
     title: "From a Coding CLI to My Own Domain",
     description,
-    images: [],
+    images: ["https://shingi-michael.github.io/images/demesne/og.jpg"],
   },
 };
 
@@ -48,6 +48,17 @@ export default function FromACodingCliToMyOwnDomain() {
           It asks before it writes a file or runs a command, every edit opens as a diff, and you can
           rewind to any step.
         </p>
+        <figure className="post-figure">
+          <img src="/images/demesne/home.jpg" alt="Demesne's home screen: a cherry blossom banner over the question What are we building?, with Drive's suggestion in the composer" loading="lazy" />
+          <figcaption>Demesne’s home screen. Drive has already looked at the project and suggests what to work on next.</figcaption>
+        </figure>
+        <figure className="post-figure">
+          <img src="/images/demesne/ask.jpg" alt="A finished turn in Demesne: the edit to hello.ts shown as a diff, the check passing, and a short summary" loading="lazy" />
+          <figcaption>A finished request: the edit opens as a diff, the check runs, and the summary says what changed.</figcaption>
+        </figure>
+        <p className="figure-note">
+          Screenshots are from the real app running a demo project.
+        </p>
         <p>
           The model is my choice. It can run on my own machine, come from a Codex plan, or come
           through OpenRouter. That flexibility turned out to matter: it lets me compare a local model
@@ -62,6 +73,10 @@ export default function FromACodingCliToMyOwnDomain() {
           back, I choose whether to apply the result, open a pull request, or throw it away. Anything
           that reaches beyond my machine, such as pushing code or publishing, still needs my approval.
         </p>
+        <figure className="post-figure">
+          <img src="/images/demesne/drive.jpg" alt="Drive's three ideas for a project, each with Run and Plan buttons" loading="lazy" />
+          <figcaption>Drive’s ideas for a project. Run does the work in its own branch; Plan writes a plan first.</figcaption>
+        </figure>
         <p>
           Two other ideas grew from there. Threads let one chat split a job into up to three parallel
           pieces, each in its own branch, so they cannot step on each other. Foundry lets the agent
