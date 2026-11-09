@@ -9,13 +9,13 @@ export const metadata = {
   openGraph: {
     title: "From a Coding CLI to My Own Domain",
     description,
-    images: ["https://shingi-michael.github.io/images/demesne/og.jpg"],
+    images: ["https://shingi-michael.github.io/images/demesne/og-0821.jpg"],
   },
   twitter: {
     card: "summary_large_image" as const,
     title: "From a Coding CLI to My Own Domain",
     description,
-    images: ["https://shingi-michael.github.io/images/demesne/og.jpg"],
+    images: ["https://shingi-michael.github.io/images/demesne/og-0821.jpg"],
   },
 };
 
@@ -49,11 +49,11 @@ export default function FromACodingCliToMyOwnDomain() {
           rewind to any step.
         </p>
         <figure className="post-figure">
-          <img src="/images/demesne/home.jpg" alt="Demesne's home screen: a cherry blossom banner over the question What are we building?, with the composer below" loading="lazy" />
+          <img src="/images/demesne/home-0821.jpg" alt="Demesne's home screen: a cherry blossom banner over the question What are we building?, with the composer below" loading="lazy" />
           <figcaption>Demesne’s home screen: pick a project and describe a change.</figcaption>
         </figure>
         <figure className="post-figure">
-          <img src="/images/demesne/ask.jpg" alt="A finished turn in Demesne: one line for the edit to hello.ts, one for the passing check, and a short summary" loading="lazy" />
+          <img src="/images/demesne/ask-0821.jpg" alt="A finished turn in Demesne: one line for the edit to hello.ts, one for the passing check, and a short summary" loading="lazy" />
           <figcaption>A finished request: the edit and the check each fold into one line, the summary says what changed, and the side panel shows the branch, the model and the changed file.</figcaption>
         </figure>
         <p className="figure-note">
@@ -74,7 +74,7 @@ export default function FromACodingCliToMyOwnDomain() {
           that reaches beyond my machine, such as pushing code or publishing, still needs my approval.
         </p>
         <figure className="post-figure">
-          <img src="/images/demesne/drive.jpg" alt="Drive's panel listing three things it could do next, with Run the first now and look again" loading="lazy" />
+          <img src="/images/demesne/drive-0821.jpg" alt="Drive's panel listing three things it could do next, with Run the first now and look again" loading="lazy" />
           <figcaption>Drive’s ideas, opened from the Drive button in the top bar. If I leave it alone, it starts the first one after 20 quiet minutes.</figcaption>
         </figure>
         <p>
