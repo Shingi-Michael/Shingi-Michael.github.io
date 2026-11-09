@@ -7,6 +7,9 @@ export default function Home() {
       <SiteHeader />
 
       <section className="introduction">
+        <a href="/notes/from-a-coding-cli-to-my-own-domain" className="notebook-sticker" title="Demesne">
+          <img src="/images/demesne-sticker.svg" alt="Demesne sticker: the d. mark under a full moon and cherry blossoms" width="260" height="260" />
+        </a>
         <h1>Notes on learning AI systems.</h1>
         <p>
           I have recently started a PhD in AI. I use this page to understand and write about

@@ -43,6 +43,22 @@ a:hover { color: var(--text); }
   line-height: 1.1;
   letter-spacing: -.025em;
 }
+.introduction { position: relative; }
+.introduction h1 { padding-right: 150px; }
+.notebook-sticker {
+  position: absolute;
+  top: 34px;
+  right: -18px;
+  width: 150px;
+  transform: rotate(9deg);
+  transition: transform .25s ease;
+}
+.notebook-sticker img { display: block; width: 100%; height: auto; }
+.notebook-sticker:hover { transform: rotate(3deg) translateY(-4px) scale(1.04); }
+@media (max-width: 640px) {
+  .introduction h1 { padding-right: 0; }
+  .notebook-sticker { position: static; display: block; width: 104px; margin: 0 0 22px auto; }
+}
 .introduction p { max-width: 670px; margin: 0; color: var(--muted); font-size: 21px; }
 .writing-section, .about-section { padding: 55px 0 70px; border-top: 1px solid var(--rule); }
 h2 { margin: 0 0 34px; font-family: Arial, sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: .1em; }
