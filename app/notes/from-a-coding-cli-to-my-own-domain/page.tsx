@@ -49,15 +49,15 @@ export default function FromACodingCliToMyOwnDomain() {
           rewind to any step.
         </p>
         <figure className="post-figure">
-          <img src="/images/demesne/home.jpg" alt="Demesne's home screen: a cherry blossom banner over the question What are we building?, with Drive's suggestion in the composer" loading="lazy" />
-          <figcaption>Demesne’s home screen. Drive has already looked at the project and suggests what to work on next.</figcaption>
+          <img src="/images/demesne/home.jpg" alt="Demesne's home screen: a cherry blossom banner over the question What are we building?, with the composer below" loading="lazy" />
+          <figcaption>Demesne’s home screen: pick a project and describe a change.</figcaption>
         </figure>
         <figure className="post-figure">
-          <img src="/images/demesne/ask.jpg" alt="A finished turn in Demesne: the edit to hello.ts shown as a diff, the check passing, and a short summary" loading="lazy" />
-          <figcaption>A finished request: the edit opens as a diff, the check runs, and the summary says what changed.</figcaption>
+          <img src="/images/demesne/ask.jpg" alt="A finished turn in Demesne: one line for the edit to hello.ts, one for the passing check, and a short summary" loading="lazy" />
+          <figcaption>A finished request: the edit and the check each fold into one line, the summary says what changed, and the side panel shows the branch, the model and the changed file.</figcaption>
         </figure>
         <p className="figure-note">
-          Screenshots are from the real app running a demo project.
+          Screenshots are from the current release (v0.8.21) running a demo project.
         </p>
         <p>
           The model is my choice. It can run on my own machine, come from a Codex plan, or come
@@ -74,8 +74,8 @@ export default function FromACodingCliToMyOwnDomain() {
           that reaches beyond my machine, such as pushing code or publishing, still needs my approval.
         </p>
         <figure className="post-figure">
-          <img src="/images/demesne/drive.jpg" alt="Drive's three ideas for a project, each with Run and Plan buttons" loading="lazy" />
-          <figcaption>Drive’s ideas for a project. Run does the work in its own branch; Plan writes a plan first.</figcaption>
+          <img src="/images/demesne/drive.jpg" alt="Drive's panel listing three things it could do next, with Run the first now and look again" loading="lazy" />
+          <figcaption>Drive’s ideas, opened from the Drive button in the top bar. If I leave it alone, it starts the first one after 20 quiet minutes.</figcaption>
         </figure>
         <p>
           Two other ideas grew from there. Threads let one chat split a job into up to three parallel
